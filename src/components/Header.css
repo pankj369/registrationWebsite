@@ -1,0 +1,75 @@
+.header {
+  background: linear-gradient(90deg, #ffffff 0%, #f0f4ff 100%);
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-section {
+  flex: 1;
+}
+
+.brand-name {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.btn-section {
+  margin-top: 0.5rem;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn-section {
+    margin-top: 1rem;
+  }
+
+  .brand-name {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+}
