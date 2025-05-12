@@ -1,0 +1,47 @@
+/* Footer.css */
+:root {
+  --primary: #2c3e50;
+  --secondary: #ecf0f1;
+  --accent: #3498db;
+  --neutral: #34495e;
+  --success: #27ae60;
+  --white: #ffffff;
+}
+
+.footer {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 20px 0;
+  text-align: center; /* Center-align the footer content */
+  font-family: 'Arial', sans-serif; /* Use your header font family */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: var(--secondary);
+  margin: 0;
+}
+
+.footer-text a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-text a:hover {
+  color: #2980b9; /* Same hover color as in header */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: 0.9rem; /* Slightly smaller font for smaller screens */
+  }
+}

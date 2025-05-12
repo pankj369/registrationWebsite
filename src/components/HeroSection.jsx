@@ -12,22 +12,21 @@ function HeroSection() {
             Your gateway to knowledge and academic excellence. Join our
             community of focused learners.
           </p>
-          <div className="btn-section">
-            <button
-              className="register-btn"
-              onClick={() =>
-                window.open("https://forms.gle/BGPyapwXKB9p4Jry6", "_blank")
-              }
-            >
-              Register Now
-            </button>
-          </div>
+          <button
+            className="register-btn"
+            onClick={() =>
+              window.open("https://forms.gle/BGPyapwXKB9p4Jry6", "_blank")
+            }
+          >
+            Register Now
+          </button>
         </div>
         <div className="hero-image">
-          <img src={heroSection} />
+          <img src={heroSection} alt="Library hero" />
         </div>
       </div>
     </section>
   );
 }
+
 export default HeroSection;
