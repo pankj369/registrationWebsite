@@ -1,35 +1,41 @@
 /* RegistrationForm.css */
 
 .registration-section {
-  background-color: #f4f7fc; /* Light background for the section */
+  background-color: #f4f7fc;
   padding: 50px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .form-container {
   width: 100%;
   max-width: 800px;
-  background-color: #ffffff; /* White background for the form container */
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
 }
 
 .form-title {
-  font-size: 2.5rem;
-  color: #2563eb; /* Indigo Blue for the form title */
-  font-weight: 700;
-  margin-bottom: 30px;
-  text-align: center;
+  font-size: 2.8rem;
+  color: #2c3e50;
+  font-weight: 750;
+  margin-bottom: 40px;
+  position: relative;
 }
 
+.form-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #3182ce;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
 .iframe-wrapper {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
+  padding-top: 56.25%; 
   height: 0;
   max-width: 100%;
   margin: 0 auto;

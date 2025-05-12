@@ -1,47 +1,79 @@
-/* Footer.css */
 :root {
   --primary: #2c3e50;
-  --secondary: #ecf0f1;
+  --secondary: #bdc3c7;
   --accent: #3498db;
   --neutral: #34495e;
   --success: #27ae60;
   --white: #ffffff;
+  --footer-bg: linear-gradient(135deg, #2c3e50, #34495e);
 }
 
 .footer {
-  background-color: var(--primary);
+  background: var(--footer-bg);
   color: var(--white);
-  padding: 20px 0;
-  text-align: center; /* Center-align the footer content */
-  font-family: 'Arial', sans-serif; /* Use your header font family */
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
-.footer-text {
-  font-size: 1rem;
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 10px;
+}.footer-text {
+  font-size: 1.5rem;
   color: var(--secondary);
-  margin: 0;
+  margin: 0 auto 10px;
+  text-align: center; /* Ensures text is centered */
+  display: block;     /* Ensures it behaves like a block element */
+  width: 100%;
 }
 
 .footer-text a {
   color: var(--accent);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-align: center;
+  display: inline-block;
 }
 
 .footer-text a:hover {
-  color: #2980b9; /* Same hover color as in header */
+  color: #2980b9;
+  text-decoration: underline;
 }
 
-/* Responsive styling for smaller screens */
+/* Add a thin top border for separation */
+.footer::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background-color: var(--accent);
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+/* Responsive Styling */
 @media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-logo {
+    font-size: 1.4rem;
+  }
+
   .footer-text {
-    font-size: 0.9rem; /* Slightly smaller font for smaller screens */
+    font-size: 0.9rem;
   }
 }

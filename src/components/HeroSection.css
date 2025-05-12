@@ -2,18 +2,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient background */
-  padding: 60px 20px;
+  background: 
+    linear-gradient(135deg, rgba(110, 142, 251, 0.85), rgba(167, 119, 227, 0.85)),
+    url('../assets/hero-section.webp'); /* Add your background image path here */
+  background-size: cover;
+  background-position: center;
   position: relative;
   overflow: hidden;
+  height: 575px;
 }
-
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit; /* Maintain gradient + image */
+  z-index: 0;
+  opacity: 1; /* Keep as is since gradient already has opacity */
+}
 .container {
+  position: relative;
+  z-index: 1; /* Ensures content stays above background */
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Ensures responsiveness */
+  flex-wrap: wrap;
 }
 
 .hero-content {
@@ -60,8 +73,9 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
-
 .wave-container {
   position: absolute;
   bottom: 0;

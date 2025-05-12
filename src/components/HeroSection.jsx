@@ -1,6 +1,8 @@
 import React from "react";
 import "./HeroSection.css";
 import heroSection from "../assets/hero-section.webp";
+import backgroundImg from "../assets/hero-section.webp"; // for background
+import heroImage from "../assets/hero-section.webp"; // for main image
 
 function HeroSection() {
   return (
