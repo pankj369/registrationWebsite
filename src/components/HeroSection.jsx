@@ -1,8 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import heroSection from "../assets/hero-section.webp";
-import backgroundImg from "../assets/hero-section.webp"; // for background
-import heroImage from "../assets/hero-section.webp"; // for main image
+import heroImage from "../assets/heroimg.png"; // for main image
 
 function HeroSection() {
   return (
@@ -11,8 +9,7 @@ function HeroSection() {
         <div className="hero-content">
           <h1 className="hero-title">Welcome to MargDarshak Library</h1>
           <p className="hero-subtitle">
-            Your gateway to knowledge and academic excellence. Join our
-            community of focused learners.
+            Your gateway to knowledge and academic excellence. Join our community of focused learners.
           </p>
           <button
             className="register-btn"
@@ -23,8 +20,8 @@ function HeroSection() {
             Register Now
           </button>
         </div>
-        <div className="hero-image">
-          <img src={heroSection} alt="Library hero" />
+        <div className="hero-image-full">
+          <img src={heroImage} alt="Library hero" />
         </div>
       </div>
     </section>
