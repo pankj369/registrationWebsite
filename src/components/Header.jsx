@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <div className="container">
+      <div className="container1">
         <div className="logo-section">
           <h2 className="brand-name">MargDarshak</h2>
           <p className="tagline">Study with Focus. Grow with Peace.</p>
@@ -23,4 +23,4 @@ function Header() {
     </header>
   );
 }
-export default Header
+export default Header;

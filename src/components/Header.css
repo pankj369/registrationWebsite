@@ -11,7 +11,7 @@
 
 .header {
   background-color: var(--primary);
-  padding:10px;
+  padding:12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: var(--font-primary);
   color: white;
@@ -20,13 +20,13 @@
   z-index: 1000;
 }
 
-.container {
+.container1 {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 .logo-section {
@@ -49,67 +49,30 @@
   font-style: italic;
   font-family: var(--font-secondary);
 }
-
-.user-actions {
+.btn-section {
   display: flex;
-  gap: 1rem;
-}
-
-.btn {
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  transition: all 0.3s ease;
-  font-family: var(--font-primary);
-  width: 120px; /* Fixed width */
-  height: 40px; /* Fixed height */
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
 }
 
-.btn-primary {
+.register-btn {
   background-color: var(--accent);
   color: var(--white);
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: var(--font-primary);
 }
 
-.btn-primary:hover {
+.register-btn:hover {
   background-color: #2980b9;
-}
-
-.btn-secondary {
-  background-color: transparent;
-  color: var(--secondary);
-  border: 1px solid var(--secondary);
-}
-
-.btn-secondary:hover {
-  background-color: rgba(236, 240, 241, 0.1);
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  .header-container {
-    flex-direction: row; /* Maintain row layout */
-    align-items: center;
-    padding: 1rem;
-    justify-content: space-between; /* Align items to the ends */
-  }
-
-  .logo-container {
-    margin-bottom: 0; /* Remove margin to align vertically */
-  }
-
-  .user-actions {
-    margin-top: 0; /* Remove margin to align vertically */
-    flex-direction: row; /* Maintain row layout */
-    gap: 0.5rem;
-  }
-
-  .btn {
-    width: auto; /* Adjust width as needed */
-    text-align: center;
+   .logo-section {
+    margin-bottom: 0;
   }
 }

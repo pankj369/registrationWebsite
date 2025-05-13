@@ -1,7 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import heroImage from "../assets/heroimg.png"; // for main image
-
+import heroImage from "../assets/heroimg.png";
 function HeroSection() {
   return (
     <section className="hero-section">

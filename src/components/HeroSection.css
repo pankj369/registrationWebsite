@@ -2,26 +2,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white, url('../assets/heroimg.png'); /* Add your background image path here */
+  background-color: white;
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
   height: 575px;
 }
-
 .hero-section::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: inherit; /* Maintain gradient + image */
+  background: rgba(255, 255, 255, 0.7); /* Light overlay */
   z-index: 0;
-  opacity: 1; /* Keep as is since gradient already has opacity */
 }
 
 .container {
   position: relative;
-  z-index: 1; /* Ensures content stays above background */
+  z-index: 1;
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
@@ -33,7 +31,7 @@
   flex: 1;
   padding-right: 20px;
   max-width: 50%;
-  color: #3573e6; /* Light text color for better contrast on gradient */
+  color: #3573e6;
 }
 
 .hero-title {
@@ -48,7 +46,7 @@
 }
 
 .register-btn {
-  background-color: #10b981; /* Emerald Green */
+  background-color: #10b981;
   color: #fff;
   font-size: 1.1rem;
   font-weight: 600;
@@ -60,64 +58,7 @@
 }
 
 .register-btn:hover {
-  background-color: #1d4ed8; /* Darker blue on hover */
-}
-
-.hero-image {
-  flex: 1;
-  max-width: 50%; /* Adjusts the width of the image container */
-  text-align: center;
-}
-
-.hero-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.wave-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-}
-
-.wave {
-  width: 100%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-content {
-    max-width: 100%;
-    padding-right: 0;
-    margin-bottom: 30px; /* Add space between sections */
-  }
-
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-
-  .hero-image {
-    max-width: 100%;
-  }
-
-  .register-btn {
-    padding: 10px 25px;
-    font-size: 1rem;
-  }
+  background-color: #1d4ed8;
 }
 
 .hero-image-full {
@@ -130,19 +71,42 @@
 
 .hero-image-full img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
-
+/* Responsive styling */
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .register-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+
   .hero-image-full {
     max-width: 100%;
     margin-top: 20px;
   }
 
   .hero-image-full img {
-    height: auto;
     width: 90%;
   }
 }
