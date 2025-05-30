@@ -29,7 +29,9 @@
   font-weight: 600;
   color: var(--accent);
   margin-bottom: 10px;
-}.footer-text {
+}
+
+.footer-text {
   font-size: 1.5rem;
   color: var(--secondary);
   margin: 0 auto 10px;
@@ -60,6 +62,26 @@
   background-color: var(--accent);
   margin: 0 auto 20px;
   border-radius: 10px;
+}
+
+.instagram-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--white);
+  transition: color 0.3s ease;
+}
+
+.instagram-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.instagram-link:hover {
+  color: var(--accent);
+}
+
+.instagram-link:hover .instagram-icon {
+  transform: scale(1.1);
 }
 
 /* Responsive Styling */

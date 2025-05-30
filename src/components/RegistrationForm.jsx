@@ -8,7 +8,7 @@ const RegistrationForm = () => {
         <h2 className="form-title">Register at Margdarshak Library</h2>
         <div className="iframe-wrapper">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSesvHqmlDEovvff222bLvKXKB8tFhfqEfrqBfPKUH9Xk5KCLg/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfQI4lSp-O7AHmcs-wR3Oie8uCW4o1y0zI22OLIIfIXOXqbKg/viewform?usp=dialog"
             width="640"
             height="1097"
             frameborder="0"

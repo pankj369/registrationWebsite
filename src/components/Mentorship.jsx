@@ -3,34 +3,40 @@ import "./Mentorship.css";
 
 const mentors = [
   {
-    name: "Anjali Verma",
-    role: "Career Coach",
-    quote: "Helping students find the right path since 2010.",
-    image: "https://via.placeholder.com/150x150?text=Anjali"
+    name: "Abhishek Panjiyar",
+    role: "Engineering career Mentor",
+    quote: "IIT Delhi",
+    image: "/images/abhishek_pfp"
   },
   {
-    name: "Rahul Sharma",
-    role: "Study Strategist",
-    quote: "Focus, plan, and achieve your academic goals.",
-    image: "https://via.placeholder.com/150x150?text=Rahul"
+    name: "Anivesh Panjiyar",
+    role: "Engineering career Mentor",
+    quote: "IIIT Gwalior",
+    image: "/images/anivesh_pfp"
   },
   {
-    name: "Priya Desai",
-    role: "Motivational Mentor",
-    quote: "Inspiring the youth with positive thinking.",
-    image: "https://via.placeholder.com/150x150?text=Priya"
+    name: "Nishant Jha",
+    role: "Commerce career Mentor",
+    quote: "Chatered Accountant",
+    image: "/images/nishant_pfp"
   },
   {
-    name: "Aman Gupta",
-    role: "Competitive Exam Expert",
-    quote: "Crack your exams with confidence and clarity.",
-    image: "https://via.placeholder.com/150x150?text=Aman"
+    name: "Bibek Kumar Sah",
+    role: "Engineering career Mentor",
+    quote: "Entrepreneur",
+    //image: "https://via.placeholder.com/150x150?text=Aman"
   },
   {
-    name: "Sneha Joshi",
-    role: "Time Management Coach",
-    quote: "Master your minutes, master your life.",
-    image: "https://via.placeholder.com/150x150?text=Sneha"
+    name: "Deepak Sharma",
+    role: "Civil Engineering career Mentor",
+    quote: "Construction Engineer",
+    //image: "https://via.placeholder.com/150x150?text=Sneha"
+  },
+  {
+    name: "Shyam Panjiyar",
+    role: "Doctor",
+    quote: "M.B.B.S + M.D",
+    //image: "https://via.placeholder.com/150x150?text=Sneha"
   }
 ];
 
