@@ -13,7 +13,7 @@ function Header() {
           <button
             className="register-btn"
             onClick={() =>
-              window.open("https://forms.gle/BGPyapwXKB9p4Jry6", "_blank")
+              window.open("https://docs.google.com/forms/d/e/1FAIpQLSfQI4lSp-O7AHmcs-wR3Oie8uCW4o1y0zI22OLIIfIXOXqbKg/viewform?usp=dialog", "_blank")
             }
           >
             Register Now
