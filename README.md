@@ -34,6 +34,4 @@ This project aims to provide an intuitive and attractive web-based interface for
 Feel free to reach out if you have feedback or suggestions:
 
 - 📧 Email: psingh227003#gmail.com
-- 📸 [Instagram](https://instagram.com/your_username)  
-<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
-
+- 📸 [Instagram](https://instagram.com/ai.pnkaj24)
