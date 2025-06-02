@@ -33,5 +33,5 @@ This project aims to provide an intuitive and attractive web-based interface for
 ## 📬 **Contact**
 Feel free to reach out if you have feedback or suggestions:
 
-- 📧 Email: psingh227003#gmail.com
-- 📸 [Instagram](https://instagram.com/ai.pnkaj24)
+- 📧 Email: psingh227003@gmail.com
+- 📸 [Instagram](https://instagram.com/ai.pankj24)
