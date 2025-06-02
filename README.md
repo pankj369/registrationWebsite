@@ -1,12 +1,39 @@
-# React + Vite
+# 📚 **MargDarshak Library**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MargDarshak Library is a modern, user-friendly **registration website** built using React. It helps students register seamlessly, and access essential resources in a peaceful and distraction-free environment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 **About This Project**
 
-## Expanding the ESLint configuration
+This project aims to provide an intuitive and attractive web-based interface for student registrations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 **Tech Stack Used**
+
+- ⚛️ React JS  
+- 🎨 Bootstrap 5  
+- 🧩 React Icons  
+- 📁 JSX  
+- 🌐 HTML5 & CSS3 (within React components)
+
+---
+
+✨ Live Demo
+🔗 www.margdarshaklibrary.com
+
+---
+## ⚙️ **How to Run This Project Locally**
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/pankj369/registrationWebsite.git
+
+## 📬 **Contact**
+Feel free to reach out if you have feedback or suggestions:
+
+- 📧 Email: psingh227003#gmail.com
+- 📸 [Instagram](https://instagram.com/your_username)  
+<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
+
