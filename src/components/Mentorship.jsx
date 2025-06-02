@@ -6,37 +6,37 @@ const mentors = [
     name: "Abhishek Panjiyar",
     role: "Engineering career Mentor",
     quote: "IIT Delhi",
-    image: "/images/abhishek_pfp"
+    image: "student-library\images\abhsiehk_pfp.jpeg",
   },
   {
     name: "Anivesh Panjiyar",
     role: "Engineering career Mentor",
     quote: "IIIT Gwalior",
-    image: "/images/anivesh_pfp"
+    image: "student-library\images\anivesh_pfp.jpg",
   },
   {
     name: "Nishant Jha",
     role: "Commerce career Mentor",
     quote: "Chatered Accountant",
-    image: "/images/nishant_pfp"
+    image: "student-library\images\nishant_pfp.jpg",
   },
   {
     name: "Bibek Kumar Sah",
     role: "Engineering career Mentor",
     quote: "Entrepreneur",
-    //image: "https://via.placeholder.com/150x150?text=Aman"
+    image: "",
   },
   {
     name: "Deepak Sharma",
     role: "Civil Engineering career Mentor",
     quote: "Construction Engineer",
-    //image: "https://via.placeholder.com/150x150?text=Sneha"
+    image: "",
   },
   {
     name: "Shyam Panjiyar",
     role: "Doctor",
     quote: "M.B.B.S + M.D",
-    //image: "https://via.placeholder.com/150x150?text=Sneha"
+    image:"student-library\images\shyam_pfp.jpg",
   }
 ];
 
