@@ -55,7 +55,9 @@
 .register-btn:hover {
   background-color: #1d4ed8;
 }
-
+.start{
+  color: white;
+}
 .hero-image-full {
   flex: 1;
   max-width: 50%;

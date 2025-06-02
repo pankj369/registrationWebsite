@@ -6,37 +6,37 @@ const mentors = [
     name: "Abhishek Panjiyar",
     role: "Engineering career Mentor",
     quote: "IIT Delhi",
-    image: "student-library\images\abhsiehk_pfp.jpeg",
+    image: "/images/abhsiehk_pfp.jpeg",
   },
   {
     name: "Anivesh Panjiyar",
     role: "Engineering career Mentor",
     quote: "IIIT Gwalior",
-    image: "student-library\images\anivesh_pfp.jpg",
+    image: "/images/anivesh_pfp.jpg",
   },
   {
     name: "Nishant Jha",
     role: "Commerce career Mentor",
     quote: "Chatered Accountant",
-    image: "student-library\images\nishant_pfp.jpg",
+    image: "/images/nishant_pfp.jpg",
   },
   {
     name: "Bibek Kumar Sah",
     role: "Engineering career Mentor",
     quote: "Entrepreneur",
-    image: "",
+    image: "/images/vivek.jpg",
   },
   {
     name: "Deepak Sharma",
     role: "Civil Engineering career Mentor",
     quote: "Construction Engineer",
-    image: "",
+    image: "/images/deepak.jpg",
   },
   {
     name: "Shyam Panjiyar",
     role: "Doctor",
     quote: "M.B.B.S + M.D",
-    image:"student-library\images\shyam_pfp.jpg",
+    image:"/images/shyam_pfp.jpg",
   }
 ];
 
@@ -64,7 +64,6 @@ const MentorshipCarousel = () => {
               <img src={mentor.image} alt={mentor.name} className="mentor-image" />
               <h3 className="mentor-name">{mentor.name}</h3>
               <p className="mentor-role">{mentor.role}</p>
-              <p className="mentor-quote">“{mentor.quote}”</p>
             </div>
           ))}
         </div>
