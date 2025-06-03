@@ -11,6 +11,9 @@ function HeroSection() {
             Your gateway to knowledge and academic excellence. Join our
             community of focused learners.
           </p>
+           <strong className="starts">
+            Starts from 1<sup>st</sup> July
+          </strong><br></br>
           <button
             className="register-btn"
             onClick={() => {
@@ -35,9 +38,6 @@ function HeroSection() {
           🎉 <strong>15 Days Free Trial</strong> for Every Student
           &nbsp;&nbsp;&nbsp; 💥 <strong>50% OFF</strong> for First 100 Students!
           &nbsp;&nbsp;&nbsp; 📚{" "}
-          <strong className="starts">
-            Starts from 1<sup>st</sup> July
-          </strong>
           <a href="#registration-section" className="cta-link">
             Register Now!
           </a>

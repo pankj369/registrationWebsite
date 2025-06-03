@@ -47,17 +47,46 @@
   font-weight: 600;
   padding: 12px 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
 }
 
 .register-btn:hover {
-  background-color: #1d4ed8;
+ background: linear-gradient(to right, #1e3a8a, #2563eb);
+  transform: scale(1.05);
 }
-.start{
-  color: white;
+
+.starts {
+  display: inline-block;
+  background: linear-gradient(to right, #1e3a8a, #2563eb);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.4);
 }
+.starts sup {
+  font-size: 0.7em;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(94, 136, 15, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(255, 75, 43, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 75, 43, 0);
+  }
+}
+
 .hero-image-full {
   flex: 1;
   max-width: 50%;

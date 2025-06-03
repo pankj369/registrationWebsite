@@ -1,0 +1,77 @@
+/* Location.css */
+
+.location-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.location-header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.location-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.location-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.location-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.location-box h4 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.location-box p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+.map-container img.location {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-container img.location:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .location-box {
+    padding: 20px;
+    margin: 0 10px;
+  }
+
+  .location-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .location-box h4 {
+    font-size: 1.3rem;
+  }
+}
