@@ -1,7 +1,7 @@
 /* Location Section */
 .location-section {
   padding: 60px 20px;
-  background: linear-gradient(to right, #f9f9f9, #e0f7fa); /* soft gradient background */
+  background: linear-gradient(135deg, #f0faff, #e0f7fa, #ffffff);
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
