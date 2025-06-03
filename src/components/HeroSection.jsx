@@ -13,9 +13,14 @@ function HeroSection() {
           </p>
           <button
             className="register-btn"
-            onClick={() =>
-              window.open("https://docs.google.com/forms/d/e/1FAIpQLSfQI4lSp-O7AHmcs-wR3Oie8uCW4o1y0zI22OLIIfIXOXqbKg/viewform?usp=dialog", "_blank")
-            }
+            onClick={() => {
+              const section = document.getElementsByClassName(
+                "registration-section"
+              )[0];
+              if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
           >
             Register Now
           </button>
@@ -28,16 +33,12 @@ function HeroSection() {
       <div className="running-banner">
         <div className="banner-text">
           🎉 <strong>15 Days Free Trial</strong> for Every Student
-          &nbsp;&nbsp;&nbsp; 💥 <strong >50% OFF</strong> for First 100 Students!
-          &nbsp;&nbsp;&nbsp;
-           📚{" "}
-          <strong className="starts">Starts from 1<sup>st</sup> July</strong>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfQI4lSp-O7AHmcs-wR3Oie8uCW4o1y0zI22OLIIfIXOXqbKg/viewform?usp=dialog"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-link"
-          >
+          &nbsp;&nbsp;&nbsp; 💥 <strong>50% OFF</strong> for First 100 Students!
+          &nbsp;&nbsp;&nbsp; 📚{" "}
+          <strong className="starts">
+            Starts from 1<sup>st</sup> July
+          </strong>
+          <a href="#registration-section" className="cta-link">
             Register Now!
           </a>
         </div>

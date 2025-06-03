@@ -24,7 +24,7 @@ const mentors = [
     name: "Bibek Kumar Sah",
     role: "Engineering career Mentor",
     quote: "Entrepreneur",
-    image: "/images/vivek.jpg",
+    image: "/images/bivek.jpg",
   },
   {
     name: "Deepak Sharma",

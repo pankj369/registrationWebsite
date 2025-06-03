@@ -3,7 +3,7 @@ import "./RegistrationForm.css";
 
 const RegistrationForm = () => {
   return (
-    <section className="registration-section">
+    <section id="registration-section" className="registration-section">
       <div className="form-container">
         <h2 className="form-title">Register at Margdarshak Library</h2>
         <iframe

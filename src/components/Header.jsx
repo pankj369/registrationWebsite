@@ -12,9 +12,15 @@ function Header() {
         <div className="btn-section">
           <button
             className="register-btn"
-            onClick={() =>
-              window.open("https://docs.google.com/forms/d/e/1FAIpQLSfQI4lSp-O7AHmcs-wR3Oie8uCW4o1y0zI22OLIIfIXOXqbKg/viewform?usp=dialog", "_blank")
-            }
+            onClick={() => {
+              const section = document.getElementsByClassName(
+                "registration-section"
+              )[0];
+              if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+              }
+              ``;
+            }}
           >
             Register Now
           </button>
