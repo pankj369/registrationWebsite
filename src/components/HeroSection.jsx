@@ -1,4 +1,3 @@
-import React from "react";
 import "./HeroSection.css";
 import heroImage from "../assets/heroimg.png";
 function HeroSection() {
@@ -11,9 +10,10 @@ function HeroSection() {
             Your gateway to knowledge and academic excellence. Join our
             community of focused learners.
           </p>
-           <strong className="starts">
+          <strong className="starts">
             Starts from 1<sup>st</sup> July
-          </strong><br></br>
+          </strong>
+          <br></br>
           <button
             className="register-btn"
             onClick={() => {
@@ -35,8 +35,7 @@ function HeroSection() {
 
       <div className="running-banner">
         <div className="banner-text">
-          🎉 <strong>15 Days Free Trial</strong> for Every Student
-          &nbsp;&nbsp;&nbsp; 💥 <strong>50% OFF</strong> for First 100 Students!
+          🎉 <strong>15 Days Free Trial</strong> on Pre-registration
           &nbsp;&nbsp;&nbsp; 📚{" "}
           <a href="#registration-section" className="cta-link">
             Register Now!

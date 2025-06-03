@@ -1,15 +1,28 @@
-/* Location.css */
-
+/* Location Section */
 .location-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background: linear-gradient(to right, #f9f9f9, #e0f7fa); /* soft gradient background */
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Header Title */
 .location-header h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #333;
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+  color: #2c3e50;
+  font-weight: 600;
+  position: relative;
+}
+
+.location-header h2::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 4px;
+  background-color: #3182ce;
+  margin: 10px auto 0;
+  border-radius: 2px;
 }
 
 .location-header p {
@@ -17,6 +30,7 @@
   color: #666;
 }
 
+/* Wrapper and Box */
 .location-wrapper {
   display: flex;
   justify-content: center;
@@ -24,18 +38,25 @@
 }
 
 .location-box {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 25px;
-  max-width: 500px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 520px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
   text-align: left;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.location-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .location-box h4 {
-  font-size: 1.5rem;
-  color: #222;
-  margin-bottom: 15px;
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 16px;
+  font-weight: 600;
 }
 
 .location-box p {
@@ -44,6 +65,7 @@
   line-height: 1.6;
 }
 
+/* Map Image */
 .map-container {
   margin-top: 20px;
 }
@@ -51,24 +73,25 @@
 .map-container img.location {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .map-container img.location:hover {
   transform: scale(1.03);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive for smaller screens */
+/* Responsive */
 @media (max-width: 600px) {
   .location-box {
     padding: 20px;
-    margin: 0 10px;
+    margin: 0 12px;
   }
 
   .location-header h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .location-box h4 {
