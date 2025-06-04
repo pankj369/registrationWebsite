@@ -10,7 +10,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} MargDarshak Library. All rights reserved.
         </p>
         <a 
-          href="https://www.instagram.com/margdarshak_library/" 
+          href="https://www.instagram.com/margdarshak_vlogs/" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="instagram-link"
