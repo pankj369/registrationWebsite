@@ -10,9 +10,10 @@ function HeroSection() {
             Your gateway to knowledge and academic excellence. Join our
             community of focused learners.
           </p>
-          <strong className="starts">
-            Starts from 1<sup>st</sup> July
-          </strong>
+        <strong className="starts">
+  📢 Starts from 1<sup>st</sup> July
+</strong>
+
           <br></br>
           <button
             className="register-btn"
