@@ -16,7 +16,7 @@ This project aims to provide an intuitive and attractive web-based interface for
 - 🎨 Bootstrap 5  
 - 🧩 React Icons  
 - 📁 JSX  
-- 🌐 HTML5 & CSS3 (within React components)
+- 🌐 HTML & CSS (within React components)
 
 ---
 
@@ -33,8 +33,8 @@ This project aims to provide an intuitive and attractive web-based interface for
 ## 📬 **Contact**
 Feel free to reach out if you have feedback or suggestions:
 
-- 📧 Email: psingh227003#gmail.com
-- 📸 [Instagram](https://instagram.com/pnkj_singh) 
+- 📧 Email: psingh227003@gmail.com
+- 📸 [Instagram](https://instagram.com/ai.pankj24) 
 
 ## 📄 License
 
