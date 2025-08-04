@@ -10,8 +10,8 @@ function HeroSection() {
             Your gateway to knowledge and academic excellence. Join our
             community of focused learners.
           </p>
-        <strong className="starts">
-  📢 Starts from 6<sup>th</sup> August
+    <strong className="starts">
+  <span className="typewriter">📢 Starts from 6<sup>th</sup> August</span>
 </strong>
 
           <br></br>

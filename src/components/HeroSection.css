@@ -61,17 +61,26 @@
 
 .starts {
   display: inline-block;
-  background: linear-gradient(to right, #1e3a8a, #2563eb);
-  color: #fff;
-  padding: 6px 16px;
-  border-radius: 12px;
   font-weight: bold;
-  font-size: 1rem;
-  margin-bottom: 15px;
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.4);
+  font-size: 2.2rem; /* Headline size */
+  color: #1e3a8a; /* Deep blue */
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
 }
-.starts sup {
-  font-size: 0.7em;
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 8px;
+  animation: typing 3s steps(30, end) forwards;
+  
+}
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
 /* Pulse animation */
