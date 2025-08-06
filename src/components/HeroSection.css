@@ -62,8 +62,8 @@
 .starts {
   display: inline-block;
   font-weight: bold;
-  font-size: 2.2rem; /* Headline size */
-  color: #1e3a8a; /* Deep blue */
+  font-size: 2.2rem; 
+  color: #1e3a8a; 
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
 }
@@ -73,6 +73,7 @@
   overflow: hidden;
   white-space: nowrap;
   padding-right: 8px;
+  width: 0;
   animation: typing 3s steps(30, end) forwards;
   
 }
@@ -128,7 +129,7 @@
   color: #fff;
   white-space: nowrap;
   padding-left: 100%;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
 
 @keyframes scroll-left {

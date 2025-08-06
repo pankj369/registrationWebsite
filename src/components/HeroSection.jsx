@@ -11,7 +11,7 @@ function HeroSection() {
             community of focused learners.
           </p>
     <strong className="starts">
-  <span className="typewriter">📢 Starts from 6<sup>th</sup> August</span>
+  <span className="typewriter">📢 "Registration Start"</span>
 </strong>
 
           <br></br>
