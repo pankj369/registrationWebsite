@@ -10,9 +10,9 @@ function HeroSection() {
             Your gateway to knowledge and academic excellence. Join our
             community of focused learners.
           </p>
-    <strong className="starts">
-  <span className="typewriter">📢"Registration Start"</span>
-</strong>
+          <strong className="starts">
+            <span className="typewriter">📢"Registration Start"</span>
+          </strong>
 
           <br></br>
           <button
