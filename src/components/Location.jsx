@@ -13,7 +13,7 @@ const Location = () => {
         <div className="location-box">
           <h4>MargDarshak Library</h4>
           <p>
-            Margdarshak Library near Kosi Dental Clinic, Benta Chowk, VIP Road, Laheriasarai, Darbhanga
+            Margdarshak Library near New Variety Readymade, Benta Chowk, VIP Road, Laheriasarai, Darbhanga
           </p>
           <div className="map-container">
             <a
