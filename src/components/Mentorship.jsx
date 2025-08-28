@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react"; // for arrows
 import "./Mentorship.css";
 
 const mentors = [
@@ -17,17 +18,17 @@ const mentors = [
   {
     name: "CA Nishant Jha",
     role: "Commerce career Mentor",
-    quote: "Chatered Accountant",
+    quote: "Chartered Accountant",
     image: "/images/nishant_pfp.jpg",
   },
   {
     name: "CA Prashant Jha",
     role: "Commerce career Mentor",
-    quote: "Chatered Accountant",
+    quote: "Chartered Accountant",
     image: "/images/prashant.jpg",
   },
   {
-    name: "Dr.Shyam Panjiyar",
+    name: "Dr. Shyam Panjiyar",
     role: "Medical career Mentor",
     quote: "Doctor (M.B.B.S + M.D)",
     image: "/images/shyam_pfp.jpg",
@@ -54,10 +55,11 @@ const MentorshipCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % mentors.length);
-    }, 4000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
+  // Swipe handlers
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
   };
@@ -68,15 +70,21 @@ const MentorshipCarousel = () => {
 
   const handleTouchEnd = () => {
     const deltaX = touchStartX.current - touchEndX.current;
-    const threshold = 50; // minimum distance for swipe
-
+    const threshold = 50;
     if (deltaX > threshold) {
-      // swipe left
-      setCurrent((prev) => (prev + 1) % mentors.length);
+      nextSlide();
     } else if (deltaX < -threshold) {
-      // swipe right
-      setCurrent((prev) => (prev - 1 + mentors.length) % mentors.length);
+      prevSlide();
     }
+  };
+
+  // Arrow handlers
+  const prevSlide = () => {
+    setCurrent((prev) => (prev - 1 + mentors.length) % mentors.length);
+  };
+
+  const nextSlide = () => {
+    setCurrent((prev) => (prev + 1) % mentors.length);
   };
 
   const goToSlide = (index) => {
@@ -92,6 +100,7 @@ const MentorshipCarousel = () => {
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
+        {/* Carousel track */}
         <div
           className="carousel-track"
           style={{ transform: `translateX(-${current * 100}%)` }}
@@ -109,6 +118,16 @@ const MentorshipCarousel = () => {
             </div>
           ))}
         </div>
+
+        {/* Left & Right arrows */}
+        <button className="carousel-arrow left" onClick={prevSlide}>
+          <ChevronLeft size={32} />
+        </button>
+        <button className="carousel-arrow right" onClick={nextSlide}>
+          <ChevronRight size={32} />
+        </button>
+
+        {/* Dots */}
         <div className="carousel-dots">
           {mentors.map((_, index) => (
             <span
