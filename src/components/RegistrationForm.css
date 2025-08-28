@@ -44,7 +44,7 @@ html, body, #root {
 /* Google Form iframe */
 iframe {
   width: 100%;
-  height: 1525px;
+  height: 2000px;
   border: none;
   border-radius: 8px;
 }
